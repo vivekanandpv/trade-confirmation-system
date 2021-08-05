@@ -20,32 +20,32 @@ public class TransactionsController {
     }
 
 
-    @GetMapping("xml-maker")
+    @GetMapping(StaticProvider.PATH_XML_MAKER)
     public ResponseEntity<List<TransactionViewModel>> getXmlMakerQueue() {
         return ResponseEntity.ok(transactionService.get(StaticProvider.XML_MAKER));
     }
 
-    @GetMapping("xml-checker")
+    @GetMapping(StaticProvider.PATH_XML_CHECKER)
     public ResponseEntity<List<TransactionViewModel>> getXmlCheckerQueue() {
         return ResponseEntity.ok(transactionService.get(StaticProvider.XML_CHECKER));
     }
 
-    @GetMapping("pdf-maker")
+    @GetMapping(StaticProvider.PATH_PDF_MAKER)
     public ResponseEntity<List<TransactionViewModel>> getPdfMakerQueue() {
         return ResponseEntity.ok(transactionService.get(StaticProvider.PDF_MAKER));
     }
 
-    @GetMapping("pdf-checker")
+    @GetMapping(StaticProvider.PATH_PDF_CHECKER)
     public ResponseEntity<List<TransactionViewModel>> getPdfCheckerQueue() {
         return ResponseEntity.ok(transactionService.get(StaticProvider.PDF_CHECKER));
     }
 
-    @GetMapping("pdf-comparison-maker")
+    @GetMapping(StaticProvider.PATH_PDF_COMPARISON_MAKER)
     public ResponseEntity<List<TransactionViewModel>> getPdfComparisonMakerQueue() {
         return ResponseEntity.ok(transactionService.get(StaticProvider.PDF_COMPARISON_MAKER));
     }
 
-    @GetMapping("pdf-comparison-checker")
+    @GetMapping(StaticProvider.PATH_PDF_COMPARISON_CHECKER)
     public ResponseEntity<List<TransactionViewModel>> getPdfComparisonCheckerQueue() {
         return ResponseEntity.ok(transactionService.get(StaticProvider.PDF_COMPARISON_CHECKER));
     }
