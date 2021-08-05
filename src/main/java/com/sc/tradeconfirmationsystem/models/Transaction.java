@@ -2,8 +2,11 @@ package com.sc.tradeconfirmationsystem.models;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 import java.time.LocalDate;
 import java.time.ZonedDateTime;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 public class Transaction {
@@ -23,6 +26,9 @@ public class Transaction {
     private String xmlFile;
     private String outboundPdfFile;
     private String inboundPdfFile;
+
+    @OneToMany(mappedBy = "transaction")
+    private List<TransactionStatus> statusList = new ArrayList<>();
 
     public String getTxnRefNo() {
         return txnRefNo;
@@ -142,5 +148,13 @@ public class Transaction {
 
     public void setInboundPdfFile(String inboundPdfFile) {
         this.inboundPdfFile = inboundPdfFile;
+    }
+
+    public List<TransactionStatus> getStatusList() {
+        return statusList;
+    }
+
+    public void setStatusList(List<TransactionStatus> statusList) {
+        this.statusList = statusList;
     }
 }
