@@ -12,4 +12,10 @@ public class ApplicationErrorHandler {
     public ResponseEntity<?> handleAuthenticationFailedException() {
         return ResponseEntity.status(401).build();
     }
+
+    @ExceptionHandler(MultipartException.class)
+    public ResponseEntity<?> handleAuthenticationFailedException() {
+        return ResponseEntity.status(401).build();
+    }
+
 }
