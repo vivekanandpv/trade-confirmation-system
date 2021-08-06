@@ -1,5 +1,6 @@
 package com.sc.tradeconfirmationsystem.controllers;
 
+import com.sc.tradeconfirmationsystem.models.Staff;
 import com.sc.tradeconfirmationsystem.services.IFileUploadService;
 import com.sc.tradeconfirmationsystem.services.ITransactionService;
 import com.sc.tradeconfirmationsystem.utils.StaticProvider;
@@ -7,11 +8,22 @@ import com.sc.tradeconfirmationsystem.viewmodels.TransactionViewModel;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+import org.xml.sax.SAXException;
 
+import javax.xml.XMLConstants;
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
+import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.ArrayList;
 import java.util.List;
 
 @RestController
@@ -62,5 +74,10 @@ public class TransactionsController {
     public ResponseEntity<?> uploadXml(@RequestParam(StaticProvider.FILE_UPLOAD_PARAM_MARKER) MultipartFile file) throws IOException {
         this.fileUploadService.uploadFile(file, StaticProvider.XML_UPLOAD_DIRECTORY_PATH);
         return ResponseEntity.ok().build();
+    }
+
+    @GetMapping("xml-sample")
+    public ResponseEntity<TransactionViewModel> getStaff() throws ParserConfigurationException, IOException, SAXException {
+        return ResponseEntity.ok(transactionService.parse("trade.xml"));
     }
 }
