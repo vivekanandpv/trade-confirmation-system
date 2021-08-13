@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Trade Ref: trade_61400000 | Product Code: FX SMP,FXO | Action: |validation|-->
+<!--Murex Event: Trade-->
+<scb:SCBML scbmlVersion="4-0" scb:documentType="Confirmation" xmlns:scb="http://www.sc.com/SCBML-1" xmlns:conf="http://www.fpml.org/FpML-5/confirmation" xmlns:fpmlextn="http://www.fpml.org/FpML-5/ext" xmlns:scbextn="http://www.sc.com/scbml/extension-2-0">
+  <xceptorHeader xmlns="http://www.xceptor.co.uk/xc-xml" xmlns:xpp="http://www.sc.com/CDU">
+    <counterparty>
+      <counterpartyType>5</counterpartyType>
+      <counterpartyUltimateRisk>SG</counterpartyUltimateRisk>
+      <confirmationClientName>LGL NAME 11000777</confirmationClientName>
+      <confirmationClientName2>LGL NAME 11000777</confirmationClientName2>
+      <confirmationClientName3>LGL NAME 11000777</confirmationClientName3>
+      <clientNameNonEnglish />
+      <clientNameNonEnglish2 />
+      <clientNameNonEnglish3 />
+      <masterAgreements>
+        <masterAgreement>
+          <masterAgreementType />
+          <isMasterAgreementExecuted>false</isMasterAgreementExecuted>
+          <Version />
+          <CalculationAgentMaster>Ourselves</CalculationAgentMaster>
+        </masterAgreement>
+      </masterAgreements>
+      <isPVB>false</isPVB>
+      <IsCTP>false</IsCTP>
+      <address1>Address1 400000342</address1>
+      <address2>Address2 400000342</address2>
+      <CityStatePstcd>SINGAPORE PS BKNG 49909</CityStatePstcd>
+      <country>SG</country>
+      <countryName>SINGAPORE</countryName>
+      <transactionOfficeClient>SINGAPORE</transactionOfficeClient>
+      <CIF />
+      <NonEnglishAddr1 />
+      <NonEnglishAddr2 />
+      <SubsegmentValue>K3</SubsegmentValue>
+      <isDisclosureClauseRemoved>false</isDisclosureClauseRemoved>
+    </counterparty>
+    <entity>
+      <bookingEntityName>LGL NAME 11090155</bookingEntityName>
+      <bookingEntityRegisteredNumber>ZC18</bookingEntityRegisteredNumber>
+      <transactionOfficeSCB>LONDON</transactionOfficeSCB>
+      <isSCBSubsidary>false</isSCBSubsidary>
+      <entityDomicile>GB</entityDomicile>
+      <isSaadiqberhad>false</isSaadiqberhad>
+      <bookingEntityNameNonEnglish />
+      <signature>
+        <digitalSignature1>JonathanBirch.jpg</digitalSignature1>
+        <signatoryName1>Jonathan Birch</signatoryName1>
+        <signatoryTitle1>OTC Derivative Confirmation Oversight</signatoryTitle1>
+        <digitalSignature2 />
+        <signatoryName2 />
+        <signatoryTitle2 />
+      </signature>
+      <departmentName />
+      <swift>SCBLGB2LTSY</swift>
+      <address1>Address1 10075222</address1>
+      <address2>Address2 10075222</address2>
+      <CityStatePstcd>LONDON  EC2V 5DD</CityStatePstcd>
+      <country>GB</country>
+      <countryName>UNITED KINGDOM</countryName>
+      <Fax>+44 2031805411</Fax>
+      <Fax>+65 64904404</Fax>
+      <Fax>+852 30090778</Fax>
+      <Fax>+91 22 66466927</Fax>
+      <Email></Email>
+      <isSignatureRequired>true</isSignatureRequired>
+      <isPhysicalSignbackReqd>false</isPhysicalSignbackReqd>
+      <isDIFC>false</isDIFC>
+      <website />
+      <signbackEmailPVB>DocumentationTeam.LondonPvBOps@sc.com</signbackEmailPVB>
+      <NonEnglishAddr1 />
+      <NonEnglishAddr2 />
+    </entity>
+    <trade>
+      <ProductId>ForeignExchange:VanillaOption</ProductId>
+      <currencyType />
+      <draftedDate>2019-08-23</draftedDate>
+      <PreviousConfirmationDate />
+      <IndependentAmountPayerSCB>Y</IndependentAmountPayerSCB>
+      <businessDayConvention />
+      <businessDayConventionforVD />
+      <DefinitionClause>98FX</DefinitionClause>
+      <currencyTypeBusinessCenter />
+      <previousDispatchedTradeID>61400000</previousDispatchedTradeID>
+      <isVanilla>true</isVanilla>
+      <BusinessDayConventionPremiumDate>Following</BusinessDayConventionPremiumDate>
+      <BusinessDayPremiumDate>New York</BusinessDayPremiumDate>
+      <transactionName>Currency Option</transactionName>
+      <isMultipleTransactions />
+      <isAutomaticExercise />
+      <Premiums />
+      <eventDetails />
+      <tiPrefix>1030245409</tiPrefix>
+      <uniqueIdentifier>SCBMUREX000000000000000061400000</uniqueIdentifier>
+    </trade>
+    <SSI>
+      <SCB>
+        <currency>
+          <intermediary>
+            <intermediaryInstitutionFullName />
+            <intermediaryInstitutionAddress />
+            <intermediaryInstitutionCityPstcd />
+            <intermediaryInstitutionSWIFT />
+          </intermediary>
+          <receiver>
+            <receiversCorrespondentFullName />
+            <receiversCorrespondentAddress />
+            <receiversCorrespondentCityPstcd />
+            <receiversCorrespondentSWIFT />
+          </receiver>
+          <account>
+            <accountwithFullName />
+            <accountwithAddress />
+            <accountwithCityPstcd />
+            <accountwithInstitutionSWIFT />
+          </account>
+          <beneficiary>
+            <beneficiaryFullName>LGL NAME 11090155</beneficiaryFullName>
+            <beneficiaryAddress>Address1 10075222 Address2 10075222</beneficiaryAddress>
+            <beneficiaryCityPstcd>LDN  EC2V 5DD</beneficiaryCityPstcd>
+            <beneficiaryInstitutionSWIFT>SCBLGB2LTSY</beneficiaryInstitutionSWIFT>
+          </beneficiary>
+          <sendersCorrespondent>
+            <sendersCorrespondentFullName />
+            <sendersCorrespondentAddress />
+            <sendersCorrespondentCityPstcd />
+            <sendersCorrespondentInstitutionSWIFT />
+          </sendersCorrespondent>
+        </currency>
+      </SCB>
+      <counterparty>
+        <currency>
+          <intermediary>
+            <intermediaryInstitutionFullName />
+            <intermediaryInstitutionAddress />
+            <intermediaryInstitutionCityPstcd />
+            <intermediaryInstitutionSWIFT />
+          </intermediary>
+          <receiver>
+            <receiversCorrespondentFullName />
+            <receiversCorrespondentAddress />
+            <receiversCorrespondentCityPstcd />
+            <receiversCorrespondentSWIFT />
+          </receiver>
+          <account>
+            <accountwithFullName />
+            <accountwithAddress />
+            <accountwithCityPstcd />
+            <accountwithInstitutionSWIFT></accountwithInstitutionSWIFT>
+          </account>
+          <beneficiary>
+            <beneficiaryFullName>LGL NAME 11000777</beneficiaryFullName>
+            <beneficiaryAddress>Address1 400000342 Address2 400000342</beneficiaryAddress>
+            <beneficiaryCityPstcd>SIN PS BKNG 49909</beneficiaryCityPstcd>
+            <beneficiaryInstitutionSWIFT />
+          </beneficiary>
+          <sendersCorrespondent>
+            <sendersCorrespondentFullName />
+            <sendersCorrespondentAddress />
+            <sendersCorrespondentCityPstcd />
+            <sendersCorrespondentInstitutionSWIFT />
+          </sendersCorrespondent>
+        </currency>
+      </counterparty>
+    </SSI>
+    <UniqueItemId>1678</UniqueItemId>
+    <deliveryMethod>NONSTP-Confirmation</deliveryMethod>
+    <documentType>Confirmation</documentType>
+    <documentVersion>1</documentVersion>
+    <tradeType>ForeignExchange:FXO</tradeType>
+    <eventType>New</eventType>
+    <tradeRef>61400000</tradeRef>
+    <TradeDate>2019-07-15T00:00:00</TradeDate>
+    <OperationType>New</OperationType>
+    <trackingData>
+      <barcodePrefix>61400000/1</barcodePrefix>
+      <queryEmail>FI.DD-KL@sc.com</queryEmail>
+      <queryContactNo />
+    </trackingData>
+    <userInput>
+      <language />
+    </userInput>
+    <deliveryDetails>
+      <deliveryDetail>
+        <type>Post:Confirmation</type>
+        <address>cdu123</address>
+        <contactName>chidam</contactName>
+      </deliveryDetail>
+    </deliveryDetails>
+    <trackingDetails>
+      <UniqueItemId />
+      <ContractID>61400000</ContractID>
+    </trackingDetails>
+    <isAutoGenTT>false</isAutoGenTT>
+    <FX>
+      <Barriers>
+        <Barrier>
+          <eventType />
+          <eventPeriodStart />
+          <eventPeriodEnd />
+        </Barrier>
+      </Barriers>
+      <isSingleBarrier>false</isSingleBarrier>
+      <isDoubleBarrier>false</isDoubleBarrier>
+      <isBinary>false</isBinary>
+      <isCashSettled>false</isCashSettled>
+      <isSpotCut>true</isSpotCut>
+      <ExpirationTime />
+      <FixingCode />
+      <WMBusinessDays>false</WMBusinessDays>
+      <OutstandingNotional>
+        <Amount amountType="CallCurrency"></Amount>
+        <Amount amountType="PutCurrency"></Amount>
+      </OutstandingNotional>
+      <isMultiplePositionDirection />
+      <isMultipleOptionType />
+      <isMultipleStrikePrice />
+      <notionalBuyer></notionalBuyer>
+      <notionalSeller></notionalSeller>
+      <notionalCurrency>EUR</notionalCurrency>
+      <counterCurrency>USD</counterCurrency>
+      <conditionType></conditionType>
+      <isLeveraged></isLeveraged>
+      <CapFloorAmounts />
+      <ReferenceRateType />
+      <FixingPageDetails>
+        <settlementRateOption1 />
+        <settlementRateOption2 />
+        <SRO1BaseCcy />
+        <SRO1QuoteCcy />
+        <SRO2BaseCcy />
+        <SRO2QuoteCcy />
+        <fixingPage />
+        <fixingPage2 />
+        <fixingInformation />
+        <fixingInformation2 />
+        <SRO1FixingTime />
+        <SRO2FixingTime />
+        <isCrossRateMultiply />
+      </FixingPageDetails>
+    </FX>
+    <NDF>
+      <disruptionFallbacks1A />
+      <disruptionFallbacks1B />
+      <disruptionFallbacks2A />
+      <disruptionFallbacks2B />
+      <disruptionFallbacks3A />
+      <disruptionFallbacks3B />
+      <disruptionFallbacks4A />
+      <disruptionFallbacks4B />
+      <maxDaysForSettlementPostponement>0</maxDaysForSettlementPostponement>
+      <maxDaysForValuationPostponement>0</maxDaysForValuationPostponement>
+      <numberOfSettlementDays />
+      <businessDaysValuation />
+      <businessDaysSettlement />
+      <settlementRateOption />
+      <referenceCurrencySpotRate />
+      <settlementCurrencySpotRate />
+      <specifiedTime />
+      <isPriceSourceDisruption>false</isPriceSourceDisruption>
+      <PriceMateriality>
+        <primaryRate />
+        <secondaryRate />
+        <isPriceMateriality>false</isPriceMateriality>
+        <percentage />
+      </PriceMateriality>
+      <isCross>false</isCross>
+      <isCrosswithDirectfix>false</isCrosswithDirectfix>
+      <settlementCurrencyFixingTime />
+      <acknowledgementSurveyRate />
+      <exchangeRateDivergence />
+      <isDeliverableCurrency>false</isDeliverableCurrency>
+      <settlementRate />
+      <isCrossLongForm>false</isCrossLongForm>
+    </NDF>
+    <Commodity />
+  </xceptorHeader>
+  <scb:header>
+    <scb:messageDetails>
+      <scb:messageVersion>1.0</scb:messageVersion>
+      <scb:messageType>
+        <scb:typeName>TradeData</scb:typeName>
+      </scb:messageType>
+    </scb:messageDetails>
+    <scb:originationDetails>
+      <scb:messageSender>
+        <scb:messageSender systemScheme="http://www.sc.com/coding-scheme/system-1-0">Murex</scb:messageSender>
+        <scb:senderDomain>
+          <scb:domainName domainNameScheme="http://www.sc.com/coding-scheme/domainNamescheme-1-0">FM</scb:domainName>
+        </scb:senderDomain>
+        <scb:countryCode>ALL</scb:countryCode>
+      </scb:messageSender>
+      <scb:initiatedTimestamp>2019-08-23T07:13:34Z</scb:initiatedTimestamp>
+      <scb:trackingId>61400000</scb:trackingId>
+    </scb:originationDetails>
+    <scb:captureSystem />
+    <scb:process>
+      <scb:eventType>Insert</scb:eventType>
+    </scb:process>
+  </scb:header>
+  <scb:payload>
+    <scb:payloadFormat>XML</scb:payloadFormat>
+    <scb:payloadType>fmpayload</scb:payloadType>
+    <scb:payloadVersion>4-0</scb:payloadVersion>
+    <scb:FPMLPayload>
+      <scb:header>
+        <scb:process>
+          <scb:state stateScheme="http://www.sc.com/coding-scheme/event/scbml-state">VALD</scb:state>
+          <scb:subState stateScheme="http://www.sc.com/coding-scheme/state/Murex">VALD</scb:subState>
+          <scb:event eventScheme="http://www.sc.com/coding-scheme/event/scbml-business-event">Trade</scb:event>
+          <scb:subEvent eventScheme="http://www.sc.com/coding-scheme/event/Murex">NEW</scb:subEvent>
+          <scb:subEvent eventScheme="http://www.sc.com/coding-scheme/subEvent/Murex" />
+        </scb:process>
+      </scb:header>
+      <conf:trade>
+        <conf:tradeHeader>
+          <conf:partyTradeIdentifier>
+            <conf:issuer issuerIdScheme="http://www.fpml.org/coding-scheme/external/cftc/issuer-identifier">party1</conf:issuer>
+            <conf:tradeId tradeIdScheme="http://www.fpml.org/coding-scheme/external/unique-transaction-identifier">1030245409</conf:tradeId>
+          </conf:partyTradeIdentifier>
+          <conf:partyTradeIdentifier>
+            <conf:issuer issuerIdScheme="http://www.fpml.org/coding-scheme/external/issuer-identifier">party1</conf:issuer>
+            <conf:tradeId tradeIdScheme="http://www.fpml.org/coding-scheme/external/unique-transaction-identifier">SCBMUREX000000000000000061400000</conf:tradeId>
+          </conf:partyTradeIdentifier>
+          <conf:partyTradeIdentifier>
+            <conf:partyReference href="party1" />
+            <conf:tradeId tradeIdScheme="http://www.sc.com/coding-scheme/tradeId">61400000</conf:tradeId>
+            <conf:tradeId tradeIdScheme="http://www.sc.com/coding-scheme/tradeId/Murex/externalREF" />
+            <conf:tradeId tradeIdScheme="http://www.sc.com/coding-scheme/tradeId/Murex/tradeInternalId">61400000</conf:tradeId>
+            <conf:linkId linkIdScheme="http://www.sc.com/coding-scheme/linkId/structureId">0</conf:linkId>
+            <conf:linkId linkIdScheme="http://www.sc.com/coding-scheme/linkId/clearingId" />
+            <conf:linkId linkIdScheme="http://www.sc.com/coding-scheme/linkId/matchingId" />
+            <conf:linkId linkIdScheme="http://www.sc.com/coding-scheme/linkId/packageId" />
+            <conf:linkId linkIdScheme="http://www.sc.com/coding-scheme/linkId/docId">0</conf:linkId>
+          </conf:partyTradeIdentifier>
+          <conf:partyTradeInformation>
+            <conf:partyReference href="party1" />
+            <conf:relatedParty>
+              <conf:partyReference href="party2" />
+              <conf:role>Counterparty</conf:role>
+            </conf:relatedParty>
+            <conf:relatedParty>
+              <conf:partyReference href="party1" />
+              <conf:role>Buyer</conf:role>
+            </conf:relatedParty>
+            <conf:relatedParty>
+              <conf:partyReference href="party2" />
+              <conf:role>Seller</conf:role>
+            </conf:relatedParty>
+            <conf:relatedPerson>
+              <conf:personReference href="Trader" />
+              <conf:role>Trader</conf:role>
+            </conf:relatedPerson>
+            <conf:executionDateTime>2019-08-23T07:13:34Z</conf:executionDateTime>
+            <conf:clearingStatus />
+            <conf:reportingRegime>
+              <conf:supervisorRegistration>
+                <conf:supervisoryBody />
+              </conf:supervisorRegistration>
+              <conf:notionalType>Notional</conf:notionalType>
+            </conf:reportingRegime>
+            <conf:reportingRegime>
+              <conf:supervisorRegistration>
+                <conf:supervisoryBody />
+              </conf:supervisorRegistration>
+              <conf:notionalType>Notional</conf:notionalType>
+            </conf:reportingRegime>
+            <conf:reportingRegime>
+              <conf:supervisorRegistration>
+                <conf:supervisoryBody />
+              </conf:supervisorRegistration>
+              <conf:notionalType>Notional</conf:notionalType>
+            </conf:reportingRegime>
+            <conf:reportingRegime>
+              <conf:supervisorRegistration>
+                <conf:supervisoryBody />
+              </conf:supervisorRegistration>
+              <conf:notionalType>Notional</conf:notionalType>
+            </conf:reportingRegime>
+            <conf:reportingRegime>
+              <conf:supervisorRegistration>
+                <conf:supervisoryBody />
+              </conf:supervisorRegistration>
+              <conf:notionalType>Notional</conf:notionalType>
+            </conf:reportingRegime>
+            <conf:confirmationMethod>PAPER</conf:confirmationMethod>
+          </conf:partyTradeInformation>
+          <conf:productSummary>
+            <conf:settlementType>Physical</conf:settlementType>
+          </conf:productSummary>
+          <conf:tradeDate>2019-07-15</conf:tradeDate>
+        </conf:tradeHeader>
+        <!--taxonomy-->
+        <!--ForeignExchange:VanillaOption-->
+        <scbextn:fxOption>
+          <conf:primaryAssetClass assetClassScheme="http://www.fpml.org/coding-scheme/asset-class">ForeignExchange</conf:primaryAssetClass>
+          <conf:productType productTypeScheme="http://www.sc.com/coding-scheme/productType/Murex">CURR|OPT|SMP</conf:productType>
+          <conf:productType productTypeScheme="http://www.sc.com/coding-scheme/productSubType/Murex">SMP</conf:productType>
+          <conf:productType productTypeScheme="http://www.sc.com/coding-scheme/typologyType/Murex" />
+          <conf:productType productTypeScheme="http://www.sc.com/coding-scheme/productType/strategy" />
+          <conf:productType productTypeScheme="http://www.sc.com/coding-scheme/productType/instrument">USD/EUR</conf:productType>
+          <conf:productId productIdScheme="http://www.fpml.org/coding-scheme/product-taxonomy">ForeignExchange:VanillaOption</conf:productId>
+          <conf:buyerPartyReference href="party1" />
+          <conf:sellerPartyReference href="party2" />
+          <conf:effectiveDate>
+            <conf:adjustableDate>
+              <conf:unadjustedDate>2019-07-15</conf:unadjustedDate>
+              <conf:dateAdjustments>
+                <conf:businessDayConvention>NONE</conf:businessDayConvention>
+              </conf:dateAdjustments>
+            </conf:adjustableDate>
+          </conf:effectiveDate>
+          <conf:europeanExercise>
+            <conf:expiryDate>2020-07-15</conf:expiryDate>
+            <conf:cutName>NY</conf:cutName>
+            <conf:valueDate>2020-07-17</conf:valueDate>
+          </conf:europeanExercise>
+          <conf:putCurrencyAmount>
+            <conf:currency currencyScheme="http://www.fpml.org/coding-scheme/external/iso4217-2001-08-15">EUR</conf:currency>
+            <conf:amount>10000.00</conf:amount>
+          </conf:putCurrencyAmount>
+          <conf:callCurrencyAmount>
+            <conf:currency currencyScheme="http://www.fpml.org/coding-scheme/external/iso4217-2001-08-15">USD</conf:currency>
+            <conf:amount>11271.00</conf:amount>
+          </conf:callCurrencyAmount>
+          <conf:soldAs>Put</conf:soldAs>
+          <conf:strike>
+            <conf:rate>1.127100</conf:rate>
+            <conf:strikeQuoteBasis>CallCurrencyPerPutCurrency</conf:strikeQuoteBasis>
+          </conf:strike>
+          <conf:premium>
+            <conf:payerPartyReference href="party1" />
+            <conf:receiverPartyReference href="party2" />
+            <conf:paymentDate>
+              <conf:adjustableDate>
+                <conf:unadjustedDate>2019-07-17</conf:unadjustedDate>
+                <conf:dateAdjustments>
+                  <conf:businessDayConvention>NONE</conf:businessDayConvention>
+                </conf:dateAdjustments>
+              </conf:adjustableDate>
+            </conf:paymentDate>
+            <conf:paymentAmount>
+              <conf:currency currencyScheme="http://www.fpml.org/coding-scheme/external/iso4217-2001-08-15">USD</conf:currency>
+              <conf:amount>140.09</conf:amount>
+            </conf:paymentAmount>
+          </conf:premium>
+        </scbextn:fxOption>
+        <conf:collateral>
+          <conf:independentAmount>
+            <conf:payerPartyReference href="party1" />
+            <conf:receiverPartyReference href="party2" />
+            <conf:paymentDetail>
+              <conf:paymentAmount>
+                <conf:currency currencyScheme="http://www.fpml.org/coding-scheme/external/iso4217-2001-08-15" />
+                <conf:amount />
+              </conf:paymentAmount>
+            </conf:paymentDetail>
+          </conf:independentAmount>
+        </conf:collateral>
+      </conf:trade>
+      <conf:party id="party1">
+        <conf:partyId partyIdScheme="http://www.sc.com/coding-scheme/partyId/FMID">10075222</conf:partyId>
+        <conf:partyId partyIdScheme="http://www.fpml.org/coding-scheme/external/iso17442">10075222</conf:partyId>
+        <conf:partyId partyIdScheme="http://www.sc.com/coding-scheme/partyId/entity">LONDON</conf:partyId>
+        <conf:partyId partyIdScheme="http://www.sc.com/coding-scheme/partyId/shortCode">SCB/LDN</conf:partyId>
+        <conf:partyName>SCB/LDN</conf:partyName>
+        <conf:person id="Trader">
+          <conf:personId personIdScheme="http://www.sc.com/coding-scheme/personId/Murex">GAURNARA</conf:personId>
+          <conf:personId personIdScheme="http://www.sc.com/coding-scheme/personId/PSID">APEXSTP</conf:personId>
+        </conf:person>
+      </conf:party>
+      <conf:party id="party2">
+        <conf:partyId partyIdScheme="http://www.sc.com/coding-scheme/partyId/shortCode">C&amp;C/SIN</conf:partyId>
+        <conf:partyId partyIdScheme="http://www.sc.com/coding-scheme/party-id/fm-id">400000342</conf:partyId>
+        <conf:partyId partyIdScheme="http://www.fpml.org/coding-scheme/external/iso17442">400000342</conf:partyId>
+        <conf:partyName>C&amp;C/SIN</conf:partyName>
+      </conf:party>
+      <scb:tradePortfolio>
+        <conf:partyPortfolioName>
+          <conf:partyReference href="party1" />
+          <conf:portfolioName>OP_GBL_EUR</conf:portfolioName>
+        </conf:partyPortfolioName>
+      </scb:tradePortfolio>
+      <scb:settlementInstruction>
+        <conf:correspondentInformation>
+          <conf:routingIdsAndExplicitDetails>
+            <conf:routingIds>
+              <conf:routingId />
+            </conf:routingIds>
+            <conf:routingName />
+            <conf:routingAccountNumber />
+          </conf:routingIdsAndExplicitDetails>
+        </conf:correspondentInformation>
+        <conf:intermediaryInformation>
+          <conf:routingIdsAndExplicitDetails>
+            <conf:routingIds>
+              <conf:routingId />
+            </conf:routingIds>
+            <conf:routingName />
+            <conf:routingAccountNumber />
+          </conf:routingIdsAndExplicitDetails>
+          <conf:intermediarySequenceNumber>1</conf:intermediarySequenceNumber>
+        </conf:intermediaryInformation>
+        <conf:beneficiaryBank>
+          <conf:routingIdsAndExplicitDetails>
+            <conf:routingIds>
+              <conf:routingId />
+            </conf:routingIds>
+            <conf:routingName />
+            <conf:routingAccountNumber />
+          </conf:routingIdsAndExplicitDetails>
+        </conf:beneficiaryBank>
+        <conf:beneficiary>
+          <conf:routingIdsAndExplicitDetails>
+            <conf:routingIds>
+              <conf:routingId />
+            </conf:routingIds>
+            <conf:routingName />
+            <conf:routingAccountNumber />
+          </conf:routingIdsAndExplicitDetails>
+        </conf:beneficiary>
+        <scbextn:account>
+          <conf:routingIdsAndExplicitDetails>
+            <conf:routingIds>
+              <conf:routingId />
+            </conf:routingIds>
+            <conf:routingName />
+            <conf:routingAccountNumber />
+            <conf:routingAddress>
+              <conf:postalCode />
+            </conf:routingAddress>
+          </conf:routingIdsAndExplicitDetails>
+        </scbextn:account>
+        <scbextn:currency currencyScheme="http://www.fpml.org/coding-scheme/external/iso4217-2001-08-15" />
+      </scb:settlementInstruction>
+      <scb:settlementInstruction>
+        <conf:correspondentInformation>
+          <conf:routingIdsAndExplicitDetails>
+            <conf:routingIds>
+              <conf:routingId />
+            </conf:routingIds>
+            <conf:routingName />
+            <conf:routingAccountNumber />
+          </conf:routingIdsAndExplicitDetails>
+        </conf:correspondentInformation>
+        <conf:intermediaryInformation>
+          <conf:routingIdsAndExplicitDetails>
+            <conf:routingIds>
+              <conf:routingId />
+            </conf:routingIds>
+            <conf:routingName />
+            <conf:routingAccountNumber />
+          </conf:routingIdsAndExplicitDetails>
+          <conf:intermediarySequenceNumber>1</conf:intermediarySequenceNumber>
+        </conf:intermediaryInformation>
+        <conf:beneficiaryBank>
+          <conf:routingIdsAndExplicitDetails>
+            <conf:routingIds>
+              <conf:routingId />
+            </conf:routingIds>
+            <conf:routingName />
+            <conf:routingAccountNumber />
+          </conf:routingIdsAndExplicitDetails>
+        </conf:beneficiaryBank>
+        <conf:beneficiary>
+          <conf:routingIdsAndExplicitDetails>
+            <conf:routingIds>
+              <conf:routingId>C&amp;C/SIN</conf:routingId>
+            </conf:routingIds>
+            <conf:routingName />
+            <conf:routingAccountNumber />
+          </conf:routingIdsAndExplicitDetails>
+        </conf:beneficiary>
+        <scbextn:account>
+          <conf:routingIdsAndExplicitDetails>
+            <conf:routingIds>
+              <conf:routingId />
+            </conf:routingIds>
+            <conf:routingName />
+            <conf:routingAccountNumber />
+            <conf:routingAddress>
+              <conf:postalCode />
+            </conf:routingAddress>
+          </conf:routingIdsAndExplicitDetails>
+        </scbextn:account>
+        <scbextn:currency currencyScheme="http://www.fpml.org/coding-scheme/external/iso4217-2001-08-15" />
+      </scb:settlementInstruction>
+      <scb:confirmation>
+        <scbextn:manualDraftFlag>false</scbextn:manualDraftFlag>
+      </scb:confirmation>
+    </scb:FPMLPayload>
+  </scb:payload>
+</scb:SCBML>
